@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Miga: café, calma y cosas buenas. Cafetería ficticia de prueba.">
+  <title>Miga — Café y cosas buenas</title>
+  <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+
+  <header class="cabecera contenedor">
+    <a class="logo" href="#inicio">miga<span>✳</span></a>
+
+    <nav aria-label="Navegación principal">
+      <a href="#carta">La carta</a>
+      <a href="#rincon">Nuestro rincón</a>
+    </nav>
+
+    <a class="boton boton-pequeno" href="#visita">
+      Ven a vernos ↗
+    </a>
+  </header>
+
+  <main id="inicio">
+    <section class="portada contenedor">
+      <div class="portada-texto">
+        <p class="etiqueta">● CAFÉ, CALMA Y BUENA COMPAÑÍA</p>
+
+        <h1>La vida sabe<br>mejor <em>sin prisa.</em></h1>
+
+        <p class="descripcion">
+          Un café recién hecho, algo rico y ese ratito que te debías.
+          Las pequeñas cosas también son grandes planes.
+        </p>
+
+        <a class="boton" href="#carta">
+          Encuentra tu favorito <span aria-hidden="true">↗</span>
+        </a>
+
+        <div class="nota">
+          <span class="sol" aria-hidden="true">☼</span>
+          <p>
+            Para empezar bien el día.<br>
+            O para volver a empezarlo.
+          </p>
+        </div>
+      </div>
+
+      <div class="portada-visual">
+        <img
+          class="foto-portada"
+          src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1400&amp;q=85&amp;fit=crop"
+          alt="Taza de café caliente junto a granos de café"
+          fetchpriority="high"
+        >
+
+        <div class="sello" aria-hidden="true">
+          hecho con
+          <span>mucho</span>
+          cariño ✳
+        </div>
+
+        <div class="pie-foto">
+          <span>Tu momento favorito del día.</span>
+          <span aria-hidden="true">↗</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="cinta">
+      <span>BUEN CAFÉ</span>
+      <span aria-hidden="true">✳</span>
+      <span>HORNO CADA MAÑANA</span>
+      <span aria-hidden="true">✳</span>
+      <span>CERO PRISAS</span>
+    </div>
+
+    <section class="carta contenedor" id="carta">
+      <div class="titulo-seccion">
+        <div>
+          <p class="etiqueta">POCAS COSAS. MUY BIEN HECHAS.</p>
+          <h2>Amor al primer sorbo.<br>Y al primer bocado.</h2>
+        </div>
+
+        <p>Nuestros imprescindibles para darle un gusto al día.</p>
+      </div>
+
+      <div class="productos">
+        <article class="producto">
+          <div class="foto-producto">
+            <img
+              src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900&amp;q=85&amp;fit=crop"
+              alt="Café servido en una taza"
+              loading="lazy"
+            >
+            <span class="insignia">EL DE SIEMPRE, PERO MEJOR</span>
+          </div>
+
+          <div class="producto-titulo">
+            <h3>Café con calma</h3>
+            <span>2,80 €</span>
+          </div>
+
+          <p>Espresso, leche cremosa y un pequeño respiro.</p>
+        </article>
+
+        <article class="producto">
+          <div class="foto-producto">
+            <img
+              src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=900&amp;q=85&amp;fit=crop"
+              alt="Croissants dorados recién horneados"
+              loading="lazy"
+            >
+            <span class="insignia">EL FAVORITO DE LA CASA</span>
+          </div>
+
+          <div class="producto-titulo">
+            <h3>Un croissant, por favor</h3>
+            <span>2,50 €</span>
+          </div>
+
+          <p>Dorado por fuera. Mantequilla y felicidad por dentro.</p>
+        </article>
+      </div>
+
+      <p class="aclaracion">
+        Carta y precios de ejemplo · Esta cafetería es ficticia,
+        las ganas de café no.
+      </p>
+    </section>
+
+    <section class="rincon contenedor" id="rincon">
+      <img
+        src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1100&amp;q=85&amp;fit=crop"
+        alt="Interior acogedor de una cafetería con luz natural"
+        loading="lazy"
+      >
+
+      <div class="rincon-texto">
+        <span class="flor" aria-hidden="true">✳</span>
+        <p class="etiqueta">TU MESA TE ESTÁ ESPERANDO</p>
+
+        <h2>Un rinconcito<br>para <em>quedarte.</em></h2>
+
+        <p>
+          Para charlar de todo. Para leer dos páginas.
+          Para mirar por la ventana mientras se enfría el café.
+        </p>
+
+        <p>En Miga siempre hay sitio para un ratito más.</p>
+
+        <a class="enlace" href="#visita">Nos vemos por aquí ↗</a>
+      </div>
+    </section>
+
+    <section class="visita contenedor" id="visita">
+      <p class="etiqueta">EL MEJOR PLAN ES UNO SENCILLO</p>
+      <h2>¿Nos tomamos algo?</h2>
+      <p>Tú pones la compañía. Nosotros, el café.</p>
+
+      <a class="boton" href="#carta">
+        Echa otro vistazo a la carta ↑
+      </a>
+    </section>
+  </main>
+
+  <footer class="pie contenedor">
+    <a class="logo" href="#inicio">miga<span>✳</span></a>
+    <p>Una web de prueba hecha con cariño. HTML + CSS.</p>
+    <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">
+      Fotos de Unsplash ↗
+    </a>
+  </footer>
+
+</body>
+</html>
